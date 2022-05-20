@@ -1,0 +1,31 @@
+.card {
+  border-radius: 15px;
+  background-color: white;
+  position: relative;
+  width: 350px;
+}
+.card > .image_container {
+  width: 100%;
+}
+.card > .image_container img {
+  margin: 20px auto;
+  border-radius: 50%;
+  width: 150px;
+}
+.card > h4 {
+  padding-left: 20px;
+  font-size: 16px;
+}
+.card > p {
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.card div {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.card div > p {
+  margin-left: 15px;
+}
